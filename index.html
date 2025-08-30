@@ -3,26 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>Act1 Midterm</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="midtermstyles.css">
 </head>
 <body>
-    <h1>Johnver C. Linejan</h1>
-    <p>I am Johnver, and I love to earn money.</p>
-    
-    <h2>These are my hobbies:</h2>
+    <nav class="nav">
     <ul>
-     <li>Playing video games</li>
-     <li>Hanging out with my friends</li>
-     <li>Talking with babycakes</li>
+        <li class="Johnver">Ayasib Registration</li>
+        <li><a href="red uncle.png">Home</a></li>
+        <li><a href="thumbnail.jpg">Contact Number</a></li>
+        <li><a href="mogged.jpg">About</a></li>
     </ul>
+  </nav>
 
-    <h2>These are my favorite links:</h2>
-    <a href="https://www.facebook.com">Facebook</a>
-    <br>
-    <a href="https://www.roblox.com">Roblox</a>
+<main>
+    <h2>Registration Form</h2>
+        <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name..." required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email..." required>
+        <br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter Your Username..." required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Your Password..." required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age..." min="1" max="100">
+        <br>
+        <label for="gender">Gender:</label>
+        <label for="gender">Male</label>
+        <input type="radio" name="male" id="male" value="male">
+        <label for="gender">Female</label>
+        <input type="radio" name="female" id="female" value="female">
+        <br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="date" id="date" placeholder="Enter your date of birth:">
+        <label for="time">Time of Birth:</label>
+        <input type="time" name="time" id="time" placeholder="Enter your time of birth:">
+        <br>
+        <input type="checkbox" name="terms" id="terms" value="agree" required>
+        <label for="terms">I agree to the terms and conditions</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="location" id="location">
+            <option value="Philippines">Philippines</option>
+            <option value="Philippines">USA</option>
+            <option value="Philippines">Japan</option>
+            <option value="Philippines">Russia</option>
+            <option value="Philippines">Dagul</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
 
-    <img src="mogged.jpg" alt="Mog" width = "2000" height = 500>
-    
+
+
+    </form>
+</main>
+
 
 
 </body>

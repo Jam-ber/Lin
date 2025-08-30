@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Big Box Divided into 4</title>
+  <style>
+    .outer-box {
+      width: 1900px;
+      height: 1000px;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .inner-box {
+      border: 1px solid red;
+      background-color: red;
+    }
+    .inner-box2 {
+      border: 1px solid blue;
+      background-color: blue;
+    }
+    .inner-box3{
+      border: 1px solid purple;
+      background-color: purple;
+    }
+    
+    .inner-box4{
+        border: 1px solid violet;
+      background-color: violet;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="outer-box">
+    <div class="inner-box"></div>
+    <div class="inner-box2"></div>
+    <div class="inner-box3"></div>
+    <div class="inner-box4"></div>
+  </div>
+
+</body>
+</html>

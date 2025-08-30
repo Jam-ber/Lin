@@ -1,0 +1,30 @@
+#h1 {
+        
+        background-color: burlywood;
+        color: antiquewhite;
+        text-align: center;
+
+    }
+
+    .nav {
+        background-color: greenyellow;
+
+
+    }
+
+    .main{
+        background-color: red;
+        text-align: center;
+
+    }
+
+   .main h2{
+    text-align: center;
+   }
+
+    .main ol{
+        text-align: center;
+        background-color: yellow;
+
+
+    }
